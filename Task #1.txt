@@ -1,0 +1,32 @@
+HTTP1.1 vs HTTP2:
+
+
+HTTP stands for hypertext transfer protocol and it is used to communicate between client and server.
+
+* HTTP 1.1
+
+        When the request made to the server, server responds from source. Before this response a TCP connection is made between client and server
+    the communication will be not lost after the first time request. The connection has several requests and response in single connection.
+        All the request and responses are in text format.
+        Head of line blocking the connection and all other request until the response recieved.
+        All the information related to the header file repeated in all the request.
+    These are major drawbacks of HTTP1.1
+
+* HTTP 2
+
+        HTTP2 works on the binary frame instead of textual format 
+        It is multiplexed with connection on multiple request
+        The server sends all files without request of client using PUSH frame.
+
+
+
+Obejects in Java script:
+
+        Objects are used to store the keyed collections of various data.
+        Objects can be created using different forms.
+        Objects can be accessed through two methods 
+            Dot notation
+            Bracket notation
+        We can add or delete properties within the object.
+        looping can be done through the object.
+        
